@@ -1,0 +1,16 @@
+{
+  "name": "theExpressSecond",
+  "version": "1.0.0",
+  "description": "The Express project to send data to the file",
+  "main": "app.js",
+  "scripts": {
+    "serve" : "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Dax Code",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
