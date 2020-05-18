@@ -18,11 +18,12 @@
 
   **Second Step***
 
-  To run the project 
+  To run the project in local 
 
   - npm run serve
 
   
+
  
 
 

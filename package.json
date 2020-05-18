@@ -4,7 +4,7 @@
   "description": "The Express project to send data to the file",
   "main": "app.js",
   "scripts": {
-    "serve" : "nodemon app.js",
+    "serve": "nodemon app.js",
     "start": "node app.js"
   },
   "keywords": [],
@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
