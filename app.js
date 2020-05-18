@@ -1,6 +1,8 @@
 const express = require('express')
+const fs = require('fs');
 const app = express()
 const port = 8085
+const userRoutes = require('./Routes/userRoutes')
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.use('/', userRoutes)
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
