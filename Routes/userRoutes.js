@@ -12,7 +12,8 @@ router.get('/', (req, res) => {
   res.sendFile(path.join(__dirname+'/Public/index.html'))
 })
 router.post('/post',  (req, res)=> {
-  res.send('POST request to the homepage')
+  res.sendFile(path.join(__dirname+'/Public/index.html'))
+  res.send(req.body)
 })
 router.delete('/', (req, res) => {
   res.send('Delete request of the stastu ')

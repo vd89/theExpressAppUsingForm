@@ -22,29 +22,29 @@
         <div class="card-header"><h1>Feedback Form</h1></div>
         <div class="card-body">
 
-          <form action="">
+          <form action="/post" method="POST" >
             <div class="form-group">
               <label>Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Name">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name">
               <div class="invalid-feedback">Name must be between 2 to 10 character 
               </div>
             </div>
             <div class="form-group">
               <label for="zipc">ZipCode</label>
-              <input type="text" class="form-control" id="zip" placeholder="ZipCode">
+              <input type="text" class="form-control" id="zip"  placeholder="ZipCode" name="zipCode">
               <div class="invalid-feedback">Enter a Valid Zipcode</div>
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="text" class="form-control" id="email" placeholder="Email">
+              <input type="text" class="form-control" id="email" placeholder="Email" name="email">
               <div class="invalid-feedback">Enter a Valid Email</div>
             </div>
             <div class="form-group">
               <label for="phone">Phone Number</label>
-              <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+              <input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone">
               <div class="invalid-feedback">Enter a Valid Phone</div>
             </div>
-            <input type="submit" class="btn btn-primary btn-block" value="Submit">
+            <button type="submit" class="btn btn-primary btn-block" value="Submit"> Submit </button>
           </form>
         </div>
       </div>
@@ -63,7 +63,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
 </body>
 
 </html>
