@@ -8,6 +8,22 @@
   5. Get the data displaced and also send the message using whatsAppApi data 
 
 ***
+### To Run Project 
+
+  **First Step**
+  
+  Install the node module and all the dependencies
+  
+  - npm install 
+
+  **Second Step***
+
+  To run the project 
+
+  - npm run serve
+
+  
+ 
 
 
 <!-- 1) Create a Feedback Form to store the feedback in text file.
